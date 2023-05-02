@@ -8,7 +8,7 @@ def evaluate_model_q1():
     _, test_loader = load_CIFAR10(batch_size=128)
 
     cnn = CNN()
-    cnn.load_state_dict(torch.load("trained_model_q1.pkl"))
+    cnn.load_state_dict(torch.load("trained_model.pkl"))
     loss_function = nn.CrossEntropyLoss(reduction="sum")
 
     # entering evaluation mode
