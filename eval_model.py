@@ -1,5 +1,5 @@
 # imports
-from train_q1 import CNN, load_CIFAR10, find_loss_and_error, TEST_NUM
+from train_model import CNN, load_CIFAR10, find_loss_and_error, TEST_NUM
 import torch
 import torch.nn as nn
 
